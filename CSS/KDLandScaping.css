@@ -40,15 +40,19 @@ body{
     color: #ffffff;
 }
 
-/*.banner{
+/*
+.banner{
     width: 100%;
     display: center;
-}*/
+}
+*/
 
 .banner > .banner-image{
-   /* width: 100%;*/
-    float: center;
-   /* height: 30em;
-    padding: 0 0 0 0;*/
-
+    padding: 0;
+    display:inline;
 }
+ .banner > .banner-text{
+     color: red;
+     display:inline;
+     vertical-align: top;
+ }
