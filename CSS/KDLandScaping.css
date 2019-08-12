@@ -41,12 +41,24 @@ body{
     color: #ffffff;
 }
 
-/*.banner{
+/*
+.banner{
     width: 100%;
     display: center;
-}*/
+}
+*/
 
 .banner > .banner-image{
+<<<<<<< HEAD
+    padding: 0;
+    display:inline;
+}
+ .banner > .banner-text{
+     color: red;
+     display:inline;
+     vertical-align: top;
+ }
+=======
    /* width: 100%;*/
     display: block;
     margin-left: auto;
@@ -79,6 +91,7 @@ body{
 .nav-1 > li > a:hover{
     color: #ffd700
 }
+<<<<<<< HEAD
 
 h1{
     text-align: center;
@@ -115,3 +128,6 @@ h1{
 
 
 
+=======
+>>>>>>> f45f514390ca4ef782546dc15b5639329b697545
+>>>>>>> 4ae589c208a10c76ed5bc1fbe1d9a5850aa58991
