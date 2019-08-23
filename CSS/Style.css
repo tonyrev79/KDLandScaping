@@ -1,15 +1,32 @@
 @import url('https://fonts.googleaplis.com/css?family=Poppins:400,500,700');
+/* body section*/
+
+body{
+    background-image: url(../Assets/Images/background.png);
+    background-repeat: repeat;
+}
+
+/* Navbar Section */
+
+
 /* Image text Section */
     /* Two Column layout */
     .patio{
-        height: 26em;
+        width:70%;
+        height: 15em;
     }
     .two-column-text{
         width:50%;
     }
 
+    .pText{ 
+        margin: 1px; 
+        color: white;
+    }
+
     .carousel-wrapper {
         background-color: #444;
+        height: 25%;
       }
       .carousel-wrapper .carousel {
         margin: 0 auto;
@@ -17,7 +34,7 @@
       }
       .carousel-wrapper .carousel .carousel-item {
         width: 100%;
-        height: 300px;
+        height: 200px;
       }
       .carousel-wrapper .carousel .carousel-item img {
         display: block;
@@ -28,99 +45,26 @@
 
 
 /* End of Image text Section */
-/* Carouse */
-/*
-.carousel-wrapper {
-    background-color: #444;
-  }
-  .carousel-wrapper .carousel {
-    margin: 0 auto;
-    background-color: #666;
-  }
-  .carousel-wrapper .carousel .carousel-item {
-    width: 100%;
-    height: 300px;
-  }
-  .carousel-wrapper .carousel .carousel-item img {
-    display: block;
-    max-height: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-  */
-/* End of Carousel */
+
+/* Footer */
+
+.footer{
+  color: white;
+  background-color: #444;
+}
 
 /*---Media Queries --*/
-/*
+
 @media (max-width: 992px) {
 
-    .carousel-wrapper {
-        background-color: #444;
-        height: 26rem;
-      }
-      .carousel-wrapper .carousel {
-        margin: 0 auto;
-        background-color: #666;
-      }
-      .carousel-wrapper .carousel .carousel-item {
-        width: 100%;
-        height: 300px; 
-      }
-      .carousel-wrapper .carousel .carousel-item img {
-        display: block;
-        max-height: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-      }
 } 
 @media (max-width: 768px) {
 
-    .patio{
-        height: 10em;
-    }
-
-    .carousel-wrapper {
-        background-color: #444;
-      }
-      .carousel-wrapper .carousel {
-        margin: 0 auto;
-        background-color: #666;
-      }
-      .carousel-wrapper .carousel .carousel-item {
-        width: 100%;
-        height: 300px;
-      }
-      .carousel-wrapper .carousel .carousel-item img {
-        display: block;
-        max-height: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-      }
 }
 @media (max-width: 576px) {
 
-    .patio{
-        height: 20em;
-    }
-    .carousel-wrapper {
-        background-color: #444;
-      }
-      .carousel-wrapper .carousel {
-        margin: 0 auto;
-        background-color: #666;
-      }
-      .carousel-wrapper .carousel .carousel-item {
-        width: 100%;
-        height: 300px;
-      }
-      .carousel-wrapper .carousel .carousel-item img {
-        display: block;
-        max-height: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-      }
 } 
-*/
+
 
 
 
