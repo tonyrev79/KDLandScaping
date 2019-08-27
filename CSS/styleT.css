@@ -4,13 +4,13 @@
 body{
     /*background-image: url(../Assets/Images/background.png);
     background-repeat: repeat;*/
-    background-color: RGB(215,236,191);
+    background-color: green;
 }
 
 /* Navbar Section */
 .navbar-padding{
     padding: 0px; 
-    background-color: RGB(120,194,55);
+    background-color: RGB(31,30,34);
 }
 
 /* Image text Section */
@@ -38,7 +38,7 @@ body{
       }
       .carousel-wrapper .carousel {
         margin: 0 auto;
-        background-color: #666;
+        background-color: grey;
       }
       .carousel-wrapper .carousel .carousel-item {
         width: 100%;
@@ -56,9 +56,12 @@ body{
 .footer{
   color: white;
   font-size: 0.7em;
-  /*background-color: #444;*/
+  background-color:RGB(31,30,34);
 }
 
+.light-1{
+    color: rgb(255, 255, 255);
+}
 .col_padding{
     padding: 1px !important; 
 }
