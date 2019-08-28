@@ -16,7 +16,7 @@ body{
 /* Image text Section */
     /* Two Column layout */
     .patio{
-        width:70%;
+        width:100%;
         height: 15em;
     }
     .two-column-text{
@@ -31,18 +31,17 @@ body{
     p{
       margin: 1px;
     }
-
-    .carousel-wrapper {
-        background-color: #444;
+    /* Carousel Section */
+    .carousel-wrapper {       
         height: 25%;
       }
       .carousel-wrapper .carousel {
         margin: 0 auto;
-        background-color: grey;
+        background-color: green;
       }
       .carousel-wrapper .carousel .carousel-item {
         width: 100%;
-        height: 200px;
+        height: 400px;
       }
       .carousel-wrapper .carousel .carousel-item img {
         display: block;
@@ -54,7 +53,7 @@ body{
 /* Footer */
 
 .footer{
-  color: white;
+  color: white; 
   font-size: 0.7em;
   background-color:RGB(31,30,34);
 }
@@ -62,8 +61,19 @@ body{
 .light-1{
     color: rgb(255, 255, 255);
 }
+
+.ftrContact, .ftrLogo, .ftrHours, .ftrAreas{
+  margin-left: 15px;
+}
+
 .col_padding{
-    padding: 1px !important; 
+    padding: 1px  !important; 
+}
+
+.hrftr{
+  color: white;
+  padding:1px 5px;
+  
 }
 /* Under Construction*/
 
