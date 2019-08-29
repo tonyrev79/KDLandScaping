@@ -31,13 +31,14 @@ body{
     p{
       margin: 1px;
     }
+    
     /* Carousel Section */
     .carousel-wrapper {       
         height: 25%;
       }
       .carousel-wrapper .carousel {
         margin: 0 auto;
-        background-color: green;
+        background-color: grey;
       }
       .carousel-wrapper .carousel .carousel-item {
         width: 100%;
