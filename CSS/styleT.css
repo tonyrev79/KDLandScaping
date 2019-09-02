@@ -11,6 +11,7 @@ body{
 .navbar-padding{
     padding: 0px; 
     background-color: RGB(31,30,34);
+    color: white !important;
 }
 
 /* Image text Section */
