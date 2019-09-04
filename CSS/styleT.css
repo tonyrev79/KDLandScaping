@@ -4,7 +4,7 @@
 body{
     /*background-image: url(../Assets/Images/background.png);
     background-repeat: repeat;*/
-    background-color: green;
+    background-color: RGB(42,148,17);
 }
 
 /* Navbar Section */
@@ -79,8 +79,36 @@ body{
 }
 /* Under Construction*/
 
-.under-construction{
+/*.under-construction{
     background-color: red;
+}
+/*about us page*/
+
+.h1-au{
+  color: white;
+  text-align: center;
+}
+
+.container, .au-image{
+  width: 100%;
+ /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;*/
+}
+
+.text-au-1{
+  background-color: grey;
+}
+
+.h2-au{
+  margin-right: 2px;
+  color: white;
+}
+
+.p-au{
+  margin-right: 2px;
+  color: white;
 }
 
 /* End of Image text Section */
