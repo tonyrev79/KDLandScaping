@@ -89,8 +89,8 @@ body{
   text-align: center;
 }
 
-.container, .au-image{
-  width: 100%;
+.centered{
+  ;
  /* display: block;
   margin-left: auto;
   margin-right: auto;
