@@ -16,10 +16,12 @@ body{
 a{
   color: white;
   border-bottom: 2px;
+  border-color: yellow;
 }
 
 a:hover{
   color: yellow;
+  border-color: white;
 }
 
 /* Navbar Section */
