@@ -4,7 +4,7 @@
 body{
     /*background-image: url(../Assets/Images/background.png);
     background-repeat: repeat;*/
-    background-color: RGB(0,128,0);
+    background-color: /*RGB(0,128,0);*/white;
 }
 
 /* Navbar Section */
@@ -103,7 +103,7 @@ body{
 }
 
 .text-au-1{
-  background-color: RGB(0,100,0);
+  background-color:/* RGB(0,100,0);*/white;
 }
 
 .h2-au{
