@@ -140,6 +140,29 @@ body{
   text-align: center;
 }
 
+/*css for services page*/
+
+.h-p{
+  border: white;
+}
+
+.h2-s{
+  color: white;
+  text-align: center;
+}
+
+.p-s{
+  color: white;
+  float: right;
+}
+
+.p-s2{
+   color: white;
+   float: right;
+}
+
+
+
 
 
 /* End of Image text Section */
