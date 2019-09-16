@@ -4,7 +4,7 @@
 body{
     /*background-image: url(../Assets/Images/background.png);
     background-repeat: repeat;*/
-    background-color: RGB(42,148,17);
+    background-color: RGB(0,128,0);
 }
 
 /* Navbar Section */
@@ -89,8 +89,13 @@ body{
   text-align: center;
 }
 
-.container, .au-image{
-  width: 100%;
+.centered{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
  /* display: block;
   margin-left: auto;
   margin-right: auto;
@@ -98,7 +103,7 @@ body{
 }
 
 .text-au-1{
-  background-color: grey;
+  background-color: RGB(0,100,0);
 }
 
 .h2-au{
@@ -110,6 +115,55 @@ body{
   margin-right: 2px;
   color: white;
 }
+
+.social a{
+  font-size: 4.5rem;
+  padding: 3rem;
+}
+
+.fa-facebook{
+  color: #3b5998;
+}
+
+.fa-twitter{
+  color: #00aced;
+}
+
+.fa-instagram{
+  color: #517fa4;
+}
+
+/*css for contact page*/
+
+.cu-h1{
+  color: white;
+  text-align: center;
+}
+
+/*css for services page*/
+
+.h-p{
+  border: white;
+}
+
+.h2-s{
+  color: white;
+  text-align: center;
+}
+
+.p-s{
+  color: white;
+  float: right;
+}
+
+.p-s2{
+   color: white;
+   float: right;
+}
+
+
+
+
 
 /* End of Image text Section */
 /* Carouse */
