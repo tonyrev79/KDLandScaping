@@ -116,6 +116,21 @@ body{
   color: white;
 }
 
+.display-4{
+  color: white;
+  text-align: center;
+}
+
+.col-md-4{
+  color: white;
+}
+
+.card{
+  color: white;
+  background-color: rgb(2, 117, 2);
+  border-color: white;
+}
+
 .social a{
   font-size: 4.5rem;
   padding: 3rem;
