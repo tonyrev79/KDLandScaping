@@ -67,8 +67,7 @@ body{
 .ftrContact, .ftrLogo, .ftrHours, .ftrAreas{
   margin-left: 15px;
 }
-.col_paddi
-ng{
+.col_padding{
     padding: 1px  !important; 
 }
 
